@@ -1,21 +1,9 @@
 .App {
   height: 95vh;
   overflow: hidden;
+  background-color: #363636;
 }
 
-.mx-scrollcontainer-middle {
-  overflow: hidden;
-}
-
-.mx-scrollcontainer-fixed > .mx-scrollcontainer-middle > .mx-scrollcontainer-wrapper, .mx-scrollcontainer-fixed > .mx-scrollcontainer-left > .mx-scrollcontainer-wrapper, .mx-scrollcontainer-fixed > .mx-scrollcontainer-center > .mx-scrollcontainer-wrapper, .mx-scrollcontainer-fixed > .mx-scrollcontainer-right > .mx-scrollcontainer-wrapper {
-  overflow: hidden;
-}
-
-.mx-scrollcontainer .mx-placeholder .mx-layoutgrid,
-.mx-scrollcontainer .mx-placeholder .mx-layoutgrid-fluid .mx-scrollcontainer .mx-placeholder .mx-layoutgrid,
-.mx-scrollcontainer .mx-placeholder .mx-layoutgrid-fluid {
-  padding: 0px;
-}
 
 p {
   font-size: 20px;
@@ -30,17 +18,12 @@ p {
 }
 
 
-.btn {
-  margin: 15px;
-}
 
 .user-form {
-  width: 100%;
+  margin: auto;
+  width: 50%;
 }
 
-div[class^="mx-name-index-"] {
-  background-color: #808080;
-}
 
 .high_scores {
   background-color: #767676;

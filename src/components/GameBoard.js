@@ -17,7 +17,7 @@ const tileImages = [
 ]
 
 // CREATE THE BODY OF THE GAME
-export default function GameBoard(mainProps) {
+export default function GameBoard() {
   // represents the mapped cards/tiles on the page.
   const [tiles, setTiles] = useState([]);
   // represents the count of all turns.
@@ -200,7 +200,7 @@ export default function GameBoard(mainProps) {
                 <li class="nav-item">
                   <button
                     onClick={(e) => handleDifficulty(e)}
-                    class="btn btn-seconday difficulty"
+                    class="btn btn-secondary difficulty"
                   >medium</button>
                 </li>
                 <li class="nav-item">
