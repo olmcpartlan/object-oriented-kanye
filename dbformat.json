@@ -1,0 +1,12 @@
+{
+    "game": {
+        "Name": ""
+    },
+    "player": {
+        "username": "",
+        "email": "",
+        "date": "",
+        "score": "",
+        "UID": ""
+    }
+}
